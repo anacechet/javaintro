@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Montserrat:ital,wght@1,500&family=Playfair+Display:wght@700&family=Poppins:wght@300&family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Gentium+Book+Basic&family=Julius+Sans+One&display=swap');
+
+
+body{
+	margin: 0;
+	background-image: url("../img/img3.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	font-family: 'Quicksand';
+	
+	height: 100%;
+}
+
+
+fieldset.separar{
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	padding: 15px;
+	background-color: black;
+	color: white;
+	padding: 3%;
+	border-radius: 20px;
+}
+
+input[type=text] {
+  transition: width 1s ease-in-out;
+  background-color: #2e2e2e;
+  background-image: url('searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding-left: 15px;
+  padding-bottom: 3px;
+  padding-top: 3px;
+  border: none;
+  width: 20%;
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+}
+
+input[type=text]:focus {
+  width: 92%;
+}
+
+th{
+	background-color: #212121;
+
+}
+
+td{
+	background-color: #212121;
+	padding-left: 70px;
+}
